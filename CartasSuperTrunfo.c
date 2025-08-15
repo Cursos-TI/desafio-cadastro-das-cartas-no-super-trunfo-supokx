@@ -65,8 +65,8 @@ int main() {
     printf("A Cidade é : %s \n", cidade1);
     printf("O codigo da carta é : %s\n", cod1);
     printf("A populção da cidade é : %d\n", populacao1);
-    printf("A area da cidade é : %f\n", area1);
-    printf("O pib da cidade é: %f\n", pib1);
+    printf("A area da cidade é : %.2f\n", area1);
+    printf("O pib da cidade é: %.2f\n", pib1);
     printf("A quantidade de pontos turisticos são : %d\n\n", pontos1);
     
     printf("===A carta 2 é : ===\n"); // falando que irei exibir todas as informações da carta 2
@@ -74,8 +74,8 @@ int main() {
     printf("A Cidade é : %s \n", cidade2);
     printf("O codigo da carta é : %s\n", cod2);
     printf("A populção da cidade é : %d\n", populacao2);
-    printf("A area da cidade é : %f\n", area2);
-    printf("O pib da cidade é: %f\n", pib2);
+    printf("A area da cidade é : %.2f\n", area2);
+    printf("O pib da cidade é: %.2f\n", pib2);
     printf("A quantidade de pontos turisticos são : %d\n", pontos2);
 
     return 0;
