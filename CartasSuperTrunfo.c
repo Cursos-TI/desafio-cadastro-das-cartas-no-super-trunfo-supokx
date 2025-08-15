@@ -60,7 +60,7 @@ int main() {
     scanf("%d", &pontos2); // armazenando os pontos turisticos da cidade 1
 
 
-    printf("\n\n===A carta 1 é : ===\n", carta1); // falando que irei exibir todas as informações da carta 1
+    printf("\n\n===A carta 1 é : ===\n"); // falando que irei exibir todas as informações da carta 1
     printf("O Estado é : %s\n", estado1);
     printf("A Cidade é : %s \n", cidade1);
     printf("O codigo da carta é : %s\n", cod1);
@@ -69,7 +69,7 @@ int main() {
     printf("O pib da cidade é: %f\n", pib1);
     printf("A quantidade de pontos turisticos são : %d\n\n", pontos1);
     
-    printf("===A carta 2 é : ===\n", carta2); // falando que irei exibir todas as informações da carta 2
+    printf("===A carta 2 é : ===\n"); // falando que irei exibir todas as informações da carta 2
     printf("O Estado é : %s\n", estado2);
     printf("A Cidade é : %s \n", cidade2);
     printf("O codigo da carta é : %s\n", cod2);
